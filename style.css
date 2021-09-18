@@ -63,7 +63,8 @@ form {
   margin-top: 2.5rem;
   width: 150px;
   height: 40px;
-  margin-left: 3rem;
+  margin-left: auto;
+  margin-right: auto;
   background: #fdeff5;
   border-radius: 10px;
   border: 2px solid #4d0080;

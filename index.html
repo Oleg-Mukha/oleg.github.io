@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 	<head>
 		<link rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" href="img/icon.ico">
@@ -7,13 +7,13 @@
 		<title>Лабораторна робота №2</title>
 	</head>
 	<body>
-		<div class ="formLeft">
+		<div id= "formLeft" class ="formLeft">
 			<div class="profile">
-				<img class ="user" id="image" src="img/cat.gif" alt="user">
+				<img class ="user" id="image" src="img/cat.gif" alt="user"/>
 				<div class="nameReg" id="caption">Реєстрація Користувача</div>
 			</div>
 		</div>
-		<form>
+		<form id="formRight">
 			<div class="caption">Введіть Ваше ім'я:</div>
 			<input class="input" type="text"/>
 			<div class="caption v2">Введіть Ваше прізвище:</div>
@@ -27,12 +27,12 @@
 			<div class="caption v2">Підтвердіть пароль:</div>
 			<input class="input" type="password"/>
 			<div class="caption v2">Оберіть Вашу стать:</div>
-			<input class="input" list="countries"/>
-				<datalist id="countries">
+			<input class="input" list="sex"/>
+				<datalist id="sex">
 					<option>Чоловіча</option>
 					<option>Жіноча</option>
 				</datalist>
-			<div class="button caption v2" type="button" onClick="passwordi();">Відправити</div>
+			<div class="button caption v2" onClick="passwordi();">Відправити</div>
 		</form>
 	</body>
 </html>
