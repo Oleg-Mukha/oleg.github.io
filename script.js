@@ -8,6 +8,8 @@ function checkMatch(){
     document.getElementById("formLeft").style.backgroundColor = '#a34848';
     document.getElementById("formRight").style.backgroundColor = '#c97575';
     document.getElementById("caption").style.color = '#591111';
+    document.getElementById("login").style.backgroundColor = '#e34444';
+    document.getElementById("password").style.backgroundColor = '#e34444';
     document.getElementById("image").style.border = '3px solid #9e2626';
     document.getElementById("image").style.boxShadow = '0px 0px 100px 10px #de2626';
     document.getElementById("image").src="img/wrongcat.gif";
@@ -19,6 +21,8 @@ function checkMatch(){
     document.getElementById("formLeft").style.backgroundColor = '#1a7a4b';
     document.getElementById("formRight").style.backgroundColor = '#79c7a1';
     document.getElementById("caption").style.color = '#153622';
+    document.getElementById("login").style.backgroundColor = '#FFF0F5';
+    document.getElementById("password").style.backgroundColor = '#FFF0F5';
     document.getElementById("image").style.border = '3px solid #038545';
     document.getElementById("image").style.boxShadow = '0px 0px 100px 10px #04c969';
     document.getElementById("image").src="img/rightcat.gif";
