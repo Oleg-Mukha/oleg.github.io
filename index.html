@@ -4,10 +4,35 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" href="img/icon.ico">
 		<script src="script.js"></script>
-		<title>Лабораторна робота №3</title>
+		<title>Лабораторна робота №2</title>
 	</head>
 	<body>
-		<canvas id="canvas" width="700" height="500"></canvas>
-			<div class = "button" onClick="tabAndBuildFunc();">Табулювання функції та будування графіку</div>
+		<div id= "formLeft" class ="formLeft">
+			<div class="profile">
+				<img class ="user" id="image" src="img/cat.gif" alt="user"/>
+				<div class="nameReg" id="caption">Реєстрація Користувача</div>
+			</div>
+		</div>
+		<form id="formRight">
+			<div class="caption">Введіть Ваше ім'я:</div>
+			<input class="input" type="text"/>
+			<div class="caption v2">Введіть Ваше прізвище:</div>
+			<input class="input" type="text"/>
+			<div class="caption v2">Оберіть Вашу стать:</div>
+			<input class="input" list="sex"/>
+				<datalist id="sex">
+					<option>Чоловіча</option>
+					<option>Жіноча</option>
+				</datalist>
+			<div class="caption v2">Введіть бажаний логін:</div>
+			<input id="login" class="input" type="text"/>
+			<div class="caption v2">Введіть електрону пошту:</div>
+			<input class="input" type="text"/>
+			<div class="caption v2">Введіть пароль:</div>
+			<input id="password" class="input" type="text"/>
+			<div class="caption v2">Підтвердіть пароль:</div>
+			<input id="passwordConfirm" class="input" type="password"/>
+			<div class="button caption v2" onClick="checkMatch();">Відправити</div>
+		</form>
 	</body>
 </html>
