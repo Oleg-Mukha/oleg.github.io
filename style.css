@@ -1,79 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-body {
-  background: #E6E6FA;
-  display: flex;
-  justify-content: center;
-  margin-top: 10rem;
+body{
+  background-color: #cfe5e3;
 }
-form {
-  float: left;
-  background-color: #DDA0DD;
-  padding: 30px;
-  height: 550px;
-  width: 250px;
-  border-radius: 0 15px 15px 0;
+
+#canvas {
+display: block;
+border: 3px solid #2c4f4b;
+margin-top: 5rem;
+margin-left: auto;
+margin-right: auto;
+background: #8fccc5;
 }
-.nameReg{
-  font-size: 32px;
-  font-weight: bold;
-  margin-top: 5rem;
-	font-family: 'Exo 2', sans-serif;
-	color: #4d0080;
-}
-.caption{
-  text-align: center;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: 'Roboto Mono', monospace;
-  color: #4d0080;
-}
-.v2{
-  margin-top: 0.7rem;
-}
-.input{
-  background-color: #FFF0F5;
-  border: 1px solid #4d0080;
-  height: 20px;
-  border-radius: 5px;
-  margin-top: 0.7rem;
-  margin-left: 2.3rem;
-}
-.formLeft {
-  height: 610px;
-  width: 320px;
-  background: #9370DB;
-  border-radius: 15px 0 0 15px;
-}
-.profile {
-  height: 510px;
-  text-align: center;
-  padding: 50px;
-}
-.user{
-  padding: 10px;
-	border: 3px solid #b477b6;
-  box-shadow: 0px 0px 100px 10px #da98dc;
-	border-radius: 150px;
-	width: 150px;
-	height: 150px;
-}
+
 .button{
-  line-height: 2.3rem;
-  margin-top: 2.5rem;
-  width: 150px;
-  height: 40px;
+  height: 100px;
+  width: 200px;
+  border: 2px solid #0c3b35;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
-  background: #fdeff5;
-  border-radius: 10px;
-  border: 2px solid #4d0080;
+  background-color: white;
+  color: #2c4f4b;
+  font-family: 'Nunito', sans-serif;
   transition: 1s;
 }
+
 .button:hover{
   cursor: pointer;
-  transition-duration: 1s;
-  box-shadow: 0px 0px 50px 10px #975cd8;
-  background: #4d0080;
+  transition-duration: 0.7s;
+  box-shadow: 0px 0px 50px 10px #8fccc5;
+  background: #2c4f4b;
   color: #fdeff5;
 }
